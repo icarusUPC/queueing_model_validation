@@ -1,0 +1,9 @@
+package messages;
+
+struct jellyfish_ret_t
+{
+	int64_t command_id;
+	byte result;
+	int32_t jellyfish_count;
+	jellyfish_t jellyfish_list[jellyfish_count];
+}

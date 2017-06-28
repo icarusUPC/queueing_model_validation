@@ -1,0 +1,8 @@
+package messages;
+
+struct georef_ret_t
+{
+	int64_t command_id;
+	byte result;
+	geolocation_t pixel_loc;
+}

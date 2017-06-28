@@ -1,0 +1,9 @@
+package messages;
+
+struct new_image_t
+{
+    int64_t command_id;
+    int32_t instance;
+    string  image_pathname;
+    int64_t n_sec;
+}

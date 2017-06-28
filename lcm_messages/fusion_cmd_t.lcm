@@ -1,0 +1,9 @@
+package messages;
+
+struct fusion_cmd_t
+{
+	int64_t command_id;
+	string photo_file[2];		// [0] Visual, [1] Thermal
+	geolocation_t photo_location[2];// [0] Visual, [1] Thermal
+	orientation_t photo_attitude[2];// [0] Visual, [1] Thermal
+}

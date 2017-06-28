@@ -1,0 +1,11 @@
+package messages;
+
+struct hotspot_t
+{
+	int32_t hotspot_id;
+	int32_t num_pixels;
+	int32_t center[2];	// row, column
+	int32_t bounding[4];	// #rows, #cols, upper_row, leftmost_col
+	float max_temp;
+	float avg_temp;
+}

@@ -1,0 +1,8 @@
+package messages;
+
+struct payload_cmd_t
+{
+    int64_t command_id;
+    string camera_name;
+    string operation;
+}

@@ -1,0 +1,9 @@
+package messages;
+
+struct georef_cmd_t
+{
+	int64_t command_id;
+	int32_t pixel[2];
+	geolocation_t location;
+	orientation_t attitude;
+}

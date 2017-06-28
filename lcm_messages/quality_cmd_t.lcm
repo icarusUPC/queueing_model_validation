@@ -1,0 +1,7 @@
+package messages;
+
+struct quality_cmd_t
+{
+	int64_t command_id;
+	string photo_file;
+}

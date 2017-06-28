@@ -1,0 +1,9 @@
+package messages;
+
+struct hotspot_ret_t
+{
+	int64_t command_id;
+	byte result;
+	int32_t hotspot_count;
+	hotspot_t hotspot_list[hotspot_count];
+}

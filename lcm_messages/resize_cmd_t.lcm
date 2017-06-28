@@ -1,0 +1,8 @@
+package messages;
+
+struct resize_cmd_t
+{
+    int64_t command_id;
+    float mega_pixels;
+    string photo_file;
+}

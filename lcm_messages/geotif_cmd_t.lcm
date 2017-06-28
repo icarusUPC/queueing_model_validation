@@ -1,0 +1,9 @@
+package messages;
+
+struct geotif_cmd_t
+{
+	int64_t command_id;
+	string photo_file;
+	geolocation_t location;
+	orientation_t attitude;
+}

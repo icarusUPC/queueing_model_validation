@@ -1,0 +1,9 @@
+package messages;
+
+struct quality_ret_t
+{
+	int64_t command_id;
+	byte result;
+	float entropy;
+	float blur;
+}

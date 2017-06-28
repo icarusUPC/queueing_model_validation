@@ -1,0 +1,8 @@
+package messages;
+
+struct resize_ret_t
+{
+	int64_t command_id;
+	byte result;
+	string photo_file;
+}

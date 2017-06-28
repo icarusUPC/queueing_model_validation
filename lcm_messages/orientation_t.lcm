@@ -1,0 +1,8 @@
+package messages;
+
+struct orientation_t
+{
+	double yaw;	// degrees
+	double pitch;	// degrees
+	double roll;	// degrees
+}

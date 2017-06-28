@@ -1,0 +1,9 @@
+package messages;
+
+struct mosaic_cmd_t
+{
+	int64_t command_id;
+	string photo_file[4];
+	geolocation_t photo_location[4];
+	orientation_t photo_attitude[4];
+}

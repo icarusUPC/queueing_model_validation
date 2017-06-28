@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Payload>
+  <Camera type="thermal" name="FLIR-A320">
+    <InternalParameters>
+      <imageWidth>640</imageWidth>
+      <imageHeight>480</imageHeight>
+      <sensorWidth>320</sensorWidth>
+      <sensorHeight>240</sensorHeight>
+      <pixelPitch>0.000025</pixelPitch>
+      <focalLength>0.01804</focalLength>
+      <fx>1674.446142303782</fx>
+	  <fy>1669.592781214394</fy>
+	  <cx>298.4672465827480</cx>
+	  <cy>234.2266846122930</cy>
+	  <k1>0.473597849923937</k1>
+	  <k2>-36.650807003874680</k2>
+	  <p1>0.004933534467065</p1>
+	  <p2>0.001917370866521</p2>   	
+    </InternalParameters>
+    <ExternalParameters>
+      <Position>
+        <X>0.375</X>
+        <Y>-0.035</Y>
+        <Z>0.110</Z>
+      </Position>
+      <Orientation>
+        <Pan>0</Pan>
+        <Tilt>0</Tilt>
+        <Roll>0</Roll>
+      </Orientation>
+     </ExternalParameters>
+  </Camera>
+  <Camera type="rgb" name="JAI">
+    <InternalParameters>
+      <imageWidth>2456</imageWidth>
+      <imageHeight>2058</imageHeight>
+      <sensorWidth>2456</sensorWidth>
+      <sensorHeight>2058</sensorHeight>
+      <pixelPitch>0.00000345</pixelPitch>
+      <focalLength>0.0127</focalLength>
+     </InternalParameters>
+    <ExternalParameters>
+      <Position>
+        <X>0.375</X>
+        <Y>0.035</Y>
+        <Z>0.070</Z>
+      </Position>
+      <Orientation>
+        <Pan>0</Pan>
+        <Tilt>0</Tilt>
+        <Roll>0</Roll>
+      </Orientation>
+    </ExternalParameters>
+  </Camera>
+  <GPS>
+    <Position>
+      <X>-1.04</X>
+      <Y>0</Y>
+      <Z>0</Z>
+    </Position>
+  </GPS> 
+</Payload>

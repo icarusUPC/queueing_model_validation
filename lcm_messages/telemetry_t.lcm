@@ -1,0 +1,28 @@
+package messages;
+
+struct position_t
+{
+    float  latitude;
+    float  longitude;
+    float  altitude;
+}
+
+struct telemetry_t
+{
+    string  ACid;
+    float heading;
+    string dest;
+    string dest_time;
+    float tas;
+    position_t p;
+}
+
+struct flight_intent_t
+{
+    string ACid;
+    float heading;
+    string dest;
+    string dest_time;
+    float tas;
+    position_t intent[3];
+}

@@ -1,0 +1,8 @@
+package messages;
+
+struct geolocation_t
+{
+	double lat; // degrees
+	double lon; // degrees
+	double alt; // meters
+}
